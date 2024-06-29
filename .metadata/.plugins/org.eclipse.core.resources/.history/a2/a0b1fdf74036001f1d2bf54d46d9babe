@@ -1,0 +1,12 @@
+package models;
+
+public class Adesivo {
+
+	public String modelo;
+	public String cor;
+	public double quantidade;
+	public double preco;
+	
+	//long => longo
+	public long id;
+}

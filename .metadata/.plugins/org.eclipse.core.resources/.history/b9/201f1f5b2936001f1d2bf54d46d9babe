@@ -1,0 +1,25 @@
+package basic;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import models.Adesivo;
+
+public class sistem {
+public static void main(String[]args) {
+	Scanner sc = new Scanner(System.in);
+		boolean funcionando = true;
+		ArrayList<Adesivo> produtos = new ArrayList<Adesivo>();
+		
+		do {
+			System.out.println("9-Sair");
+			int opcao = sc.nextInt();
+			switch (opcao) {
+			case 9: {
+				funcionando = false;
+			}
+			}
+		}while (funcionando != false);
+	
+
+}}

@@ -1,0 +1,18 @@
+package basic;
+
+import models.Cliente;
+
+public class Sistema {
+
+	public static void main(String[] args) {
+		Cliente meuCliente = new Cliente();
+		meuCliente.nome = "Denise Assis";
+		
+		//0, 1, 2, 3, => 4
+		Cliente[] clientes = new Cliente[4];
+		clientes[0] = meuCliente;
+		
+
+	}
+
+}

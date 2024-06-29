@@ -1,0 +1,10 @@
+package models;
+
+public class Adesivo {
+
+	public
+	String nome;
+	public 
+	String cor;
+
+}

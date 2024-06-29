@@ -1,0 +1,9 @@
+package models;
+
+public class Adesivo {
+
+	public class Cliente {
+		 public String produto;
+	}
+
+}
